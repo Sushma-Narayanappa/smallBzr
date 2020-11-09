@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wraper {
+    background: url(home.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;
+    
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    position: fixed;
+
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 70px;
+} 
+.navbar ul li a{
+    position: sticky;
+    text-decoration: none;
+    color: darkslategray;
+    padding: 6px 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .4s;
+
+}
+.navbar ul li a.active,
+.navbar ul a:hover {
+    color: green;
+    border-radius: 2px;
+}
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    align-items: center;
+}
+
+.center h2 {
+    color: green;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.center p {
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    
+    text-align: center;
+    
+}
+
+.buttons button {
+    margin-left: 550px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    
+    color: white;
+    background: green;
+    outline: none;
+    cursor: pointer;
+   
+}
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+
+#about {
+background-color: white;
+}
+#service {
+    background-color: white;
+}
+#blog {
+    background-color: white;
+}
+
+    
+.about-info  {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 100px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.about-info h3 {
+    padding-top: 60px;
+    
+    font-size: 30px;
+    font-weight: lighter;
+}
+.about-info p{
+    padding:10px 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.about-info button {
+    padding: 10px 10px;
+    background-color: green;
+    color: white;
+}
+.info-box {
+    display: flex;
+}
+.info-box1 {
+    display: flex;
+
+}
+
+
+.info-2 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-2:hover {
+    background-color: green;
+}
+.info-21 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-21:hover {
+    background-color: green;
+}
+
+.info-2 h3 {
+    font-weight: lighter;
+    
+
+}
+.info-3 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+    font-weight: lighter;
+}
+.info-3:hover {
+    background-color: green;
+}
+.info-31 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-31:hover {
+    background-color: green;
+}
+.photo-invest {
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+.invest1 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 40px;
+    margin: 20px;
+    font-weight: lighter;
+  
+}
+.invest2 {
+    box-shadow: inset 0px 0px  7px 3px #999;
+    width: 150px;
+    padding: 40px;
+    margin: 20px;
+    font-weight: lighter;
+  
+}
+.image {
+    width: 160px;
+  height: 160px;
+}
+.image1 {
+    width: 160px;
+    height: 160px;
+  }
+.service-data h3{
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.service-data p {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.service-data button {
+    border: 1px solid green;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.man {
+    font-weight: lighter;
+    display: flex;
+    margin-top: 100px;
+}
+.man h1{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right: 400px;
+}
+.man1 {
+    width: 200px;
+    height: 300px;
+    margin-right: 150px;
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }  
+  #contact {
+     
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      margin-bottom: 5px;
+  }
+  .contact-1 {
+      padding-left: 30px;
+  }
+  .contact-2 {
+      padding-left: 150px;
+  }
+  .contact-2 li {
+      list-style: none;
+  }
+  .contact-3 {
+      padding-left: 80px;
+  }
+  .contact-3 li {
+      list-style: none;
+  }
+  .contact-4 {
+    padding-left: 120px;
+}
+.contact-4 li {
+    list-style: none;
+}
