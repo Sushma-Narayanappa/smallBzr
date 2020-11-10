@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.wraper {
+.home {
     background: url(home.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
@@ -57,13 +57,9 @@
     user-select: none;
     align-items: center;
 }
-.navbar h3 {
-    
-    padding-left: 400px;
-    
-}
-.right-1 {
-   padding-left: 800px;
+
+.right-1 li a {
+   float: right;
    
 }
 .right-1 button {
@@ -95,7 +91,7 @@
 }
 
 .buttons button {
-    margin-left: 550px;
+    align-self: center;
     height: 50px;
     width: 150px;
     font-size: 18px;
